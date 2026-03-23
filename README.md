@@ -21,38 +21,44 @@
 
 ---
 
-### 🏛️ Engineering Ecosystem
+---
+
+### 🏛️ Engineering Ecosystem & Technical Arsenal
 
 <table width="100%" border="0">
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 Intelligence Layer</h4>
+      <h4>🧠 Intelligence & Computer Vision</h4>
       <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv&theme=dark" />
-      <p><i>Neural architectures for high-fidelity verification.</i></p>
-      <code>YOLOv8</code> <code>GANs</code> <code>Capsule Networks</code>
+      <p align="justify"><i>Architecting deep learning models for high-fidelity verification and pattern recognition.</i></p>
+      <code><b>YOLOv11</b></code> <code><b>GANs</b></code> <code><b>Capsule Networks</b></code>
     </td>
     <td width="50%" valign="top">
-      <h4>⛓️ Trust & Consensus Layer</h4>
+      <h4>⛓️ Web3 & Decentralized Protocols</h4>
       <img src="https://skillicons.dev/icons?i=solidity,nodejs,react,nextjs&theme=dark" />
-      <p><i>Decentralized protocols and immutable storage.</i></p>
-      <code>Ethereum</code> <code>IPFS</code> <code>Smart Contracts</code>
+      <p align="justify"><i>Engineering trustless systems through smart contracts and immutable storage.</i></p>
+      <code><b>Ethereum</b></code> <code><b>IPFS</b></code> <code><b>Web3.js</b></code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🛡️ Offensive Security</h4>
+      <br />
+      <h4>🛡️ Cyber-Physical Security</h4>
       <img src="https://skillicons.dev/icons?i=linux,kali,bash,cpp&theme=dark" />
-      <p><i>Hardware-focused security & Red Teaming.</i></p>
-      <code>Pentesting</code> <code>Smishing Prevention</code> <code>Rpi 5</code>
+      <p align="justify"><i>Offensive security research focusing on hardware vulnerabilities and smishing prevention.</i></p>
+      <code><b>Red Teaming</b></code> <code><b>Raspberry Pi 5</b></code> <code><b>Pentesting</b></code>
     </td>
     <td width="50%" valign="top">
-      <h4>💻 System Core</h4>
+      <br />
+      <h4>💻 Full-Stack System Architecture</h4>
       <img src="https://skillicons.dev/icons?i=java,spring,ts,git,figma&theme=dark" />
-      <p><i>Full-Stack Development & Architecture.</i></p>
-      <code>Next.js</code> <code>Laravel</code> <code>Blender 3D</code>
+      <p align="justify"><i>Building scalable, enterprise-grade applications with a focus on UX and performance.</i></p>
+      <code><b>Next.js</b></code> <code><b>Laravel</b></code> <code><b>Blender 3D</b></code>
     </td>
   </tr>
 </table>
+
+---
 
 ---
 
