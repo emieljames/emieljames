@@ -16,13 +16,7 @@
 
   <br />
 
-  <table>
-    <tr>
-      <td align="center">
-        I am a 3rd-year CS student at <b>Pamantasan ng Cabuyao</b> focused on building intelligent, secure, and decentralized systems. I specialize in the convergence of <b>Artificial Intelligence</b> and <b>Blockchain</b> to create trustworthy digital infrastructure.
-      </td>
-    </tr>
-  </table>
+ 
 </div>
 
 ---
@@ -64,15 +58,53 @@
 
 ### 📂 Academic & Applied Research
 
-#### 💠 **[Project Kumpirma] | Signature Verification Protocol**
-> **University Thesis:** Fusing **GAN-driven restoration** with **Capsule Networks** to authenticate document signatures, secured by an immutable **Ethereum** layer.
+#### 💠 **[Project Kumpirma] | Signature Verification & Authentication Protocol**
+> **High-Fidelity Document Integrity via Hybrid AI-Blockchain Architecture**
+* **The Problem:** Combatting sophisticated document forgery and "noisy" or degraded physical signatures in legal/academic environments.
+* **Neural Restoration:** Implemented **Generative Adversarial Networks (GANs)** to reconstruct and "denoise" low-quality signature scans before analysis.
+* **Spatial Intelligence:** Utilized **Capsule Networks (CapsNets)** instead of standard CNNs to better maintain spatial hierarchies and orientation features of handwriting.
+* **Immutable Proof:** Developed a hashing protocol where verification results and metadata are anchored to the **Ethereum** blockchain for tamper-proof auditing.
+* **Stack:** `Python` `PyTorch` `OpenCV` `Solidity` `IPS` `Next.js`
 
-#### 💠 **[RedQuest] | Automated Logistics Platform**
-> A system-level engineering project focused on **automated blood donor mobilization** and real-time coordination frameworks for mission-critical resource transport.
+#### 💠 **[RedQuest] | Mission-Critical Automated Logistics**
+> **Decentralized Coordination Framework for Blood Donor Mobilization**
+* **The Problem:** Addressing the latency and fragmentation in emergency blood supply chains during critical shortages.
+* **Core Engine:** Engineered a real-time coordination layer using **Node.js** and **WebSockets** to synchronize donor availability with hospital demand in sub-second intervals.
+* **Geospatial Optimization:** Integrated mapping APIs to calculate optimal mobilization routes for high-priority resource transport.
+* **Security First:** Designed a modular RBAC (Role-Based Access Control) system to ensure donor privacy while maintaining transparent logistical logs.
+* **Stack:** `Next.js` `Laravel` `Firebase` `Google Maps API`
+
+#### 💠 **[Toka] | Fintech-Driven Household Management**
+> **Micro-Incentive Engine for Family Financial Literacy**
+* **Concept:** Bridging the gap between household responsibility and financial education for youth.
+* **Logic:** Developing a structured system that links real-time task completion with automated allowance distribution.
+* **Focus:** UI/UX for dual-income households and secure ledger-based transaction tracking.
+* **Stack:** `React Native` `Firebase` `Node.js`
+---
 
 ---
 
+### 📊 Performance Metrics
 
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=emieljames&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Emiel's GitHub Stats" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emieljames&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most Used Languages" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=emieljames&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ---
 
