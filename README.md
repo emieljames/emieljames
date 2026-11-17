@@ -69,6 +69,18 @@
 
 ---
 
+## 🔄 Recently active
+
+<!-- RECENT:START -->
+- [Otso-Otso_GitHub](https://github.com/emieljames/Otso-Otso_GitHub) · `TypeScript` · last push 2026-05-14
+- [redquest](https://github.com/emieljames/redquest) · last push 2026-05-07
+- [Lumen-Ultimum-Last-Light-](https://github.com/emieljames/Lumen-Ultimum-Last-Light-) · `HTML` · last push 2025-11-14
+- [Library](https://github.com/emieljames/Library) · `PHP` · last push 2025-09-25
+- [demo-Library-Management-System](https://github.com/emieljames/demo-Library-Management-System) · `PHP` · last push 2025-09-25
+<!-- RECENT:END -->
+
+---
+
 ## 🛠️ Tech stack
 
 | | |
@@ -111,5 +123,7 @@
 <br /><br />
 
 <img src="https://komarev.com/ghpvc/?username=emieljames&color=6366f1&style=flat-square&label=Profile+views" />
+
+<sub><!-- UPDATED:START -->Last refreshed November 17, 2026 by a daily GitHub Action<!-- UPDATED:END --></sub>
 
 </div>

@@ -1,0 +1,43 @@
+name: Daily README refresh
+
+on:
+  schedule:
+    # Once a day at 08:00 Philippine time (00:00 UTC). One commit per day, no more.
+    - cron: "0 0 * * *"
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit if changed
+        run: |
+          # Authored with your noreply email so the commit counts on your contribution graph.
+          git config user.name "Emiel James Escuzar"
+          git config user.email "86387494+emieljames@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed, skipping commit."
+            exit 0
+          fi
+          git commit -m "chore: daily README refresh"
+          git push
